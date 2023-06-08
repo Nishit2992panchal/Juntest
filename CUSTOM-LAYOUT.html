@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CUSTOM LAYOUT</title>
+  <!-- CSS -->
+	<!-- <link rel="stylesheet" href="css/fontawesome470.css" type="text/css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" type="text/css">
+
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	
+</head>
+<body class="">
+  <div class="body_wrapper">   
+    <header class="header">
+      <div class="logo">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+      </div>
+      <button class="navbar-toggler">
+        <span class="nav-toggle-icon"></span>
+        <span class="nav-toggle-icon"></span>
+        <span class="nav-toggle-icon"></span>
+      </button>
+      <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light"> 
+          <div class="navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item"> <a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#">Features</a>
+             	  <ul class="dropdown-menu">
+                  <li class="sub-dropdown">
+                    <a class="initmm_ttl">First Options</a>
+                    <ul class="sub-dropdown-menu">
+                      <li><a href="#">Inner first</a></li>
+                      <li><a href="#">Inner second</a></li>
+                      <li><a href="#">Inner third</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="initmm_ttl">Second Options</a></li>
+                  <li><a class="initmm_ttl">Third Options</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#">Dropdown</a>
+             	  <ul class="dropdown-menu">
+                  <li><a class="initmm_ttl">First Options</a></li>
+                  <li><a class="initmm_ttl">Second Options</a></li>
+                  <li><a class="initmm_ttl">Third Options</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="head-srclist">
+        <div class="head-userbtn head-icon">
+          <a href="#" class="icon"><i class="fa fa-user" aria-hidden="true"></i></a>
+          <div class="head-popbox head-userbox" id="hideuse1">
+            <i class="fa fa-times" aria-hidden="true"></i>
+            <div class="pb-user-photo-name">
+                <div class="pb-user-photo"></div>
+                <div class="pb-user-name">
+                    <h3> Musheer Kamau</h3>
+                    <span>MISTYB@iadb.org</span>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="head-srchbtn head-icon"> 
+          <a href="#" class="icon"><i class="fa fa-search" aria-hidden="true"></i></a>
+          <div class="head-popbox head-srchbox" >
+            <input type="text" placeholder="Search here">
+            <a></a>
+          </div>
+        </div>
+        <div class="head-rmbtn head-icon">
+          <a href="#" class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          <div class="right-menu">
+    				<div class="side-box-close-btn"><i class="fa fa-times"></i> </div>
+    				<div class="right-inner-box">
+              <div class="contact-box">
+                  <div class="contact-box-header">
+                      <h2>Contact us</h2>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                  </div>
+                  <div class="contact-form-box">
+                      <div class="field-container">
+                          <span class="cbf-box">
+                              <input class="cbf-field" type="text" id="txtContactName" />
+                              <label class="cbf-label" for="txtContactName">
+                                  <i class="fa fa-fw fa-user icon"></i>
+                                  <span class="cbf-label-content">Your Name</span>
+                              </label>
+                          </span>
+                          <span class="cbf-box">
+                              <input class="cbf-field" type="text" id="txtContactEmail" />
+                              <label class="cbf-label" for="txtContactEmail">
+                                  <i class="fa fa-fw fa-envelope icon"></i>
+                                  <span class="cbf-label-content">Email</span>
+                              </label>
+                          </span>
+                          <span class="cbf-box">
+                              <input class="cbf-field" type="text" id="txtContactPhone" />
+                              <label class="cbf-label" for="txtContactPhone">
+                                  <i class="fa fa-fw fa-phone icon"></i>
+                                  <span class="cbf-label-content">Phone</span>
+                              </label>
+                          </span>
+                          <span class="cbf-box">
+                              <input class="cbf-field" type="text" id="txtContactMessage" />
+                              <label class="cbf-label" for="txtContactMessage">
+                                  <i class="fa fa-fw fa-comment icon"></i>
+                                  <span class="cbf-label-content">Message</span>
+                              </label>
+                          </span>
+                          <button class="cbf-button" id="btnContactUsEmail" title="Get in touch">Get in touch</button>
+                      </div>
+                  </div>
+                 
+                  <div class="social-box">
+                      <div class="contact-box-header">
+                          <h2>We are at social</h2>
+                          <p>Get connected with us on social</p>
+                      </div>
+                      <ul class="social-box-list">
+                          <li>
+                              <a href="https://www.facebook.com/BancoInteramericano/" class="fb" title="Facebook">
+                                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0);" class="tw" title="Twitter">
+                                 <i class="fa fa-linkedin" aria-hidden="true"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0);" class="gp" title="Google Plus">
+                                 <i class="fa fa-twitter" aria-hidden="true"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0);" class="pi" title="Pintrest">
+                                 <i class="fa fa-youtube" aria-hidden="true"></i>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+        	</div>	
+        </div>  			
+      </div>
+    </header>
+    <div class="cross-bgsec">
+      <div class="inn_container">
+        <div class="row">
+          <div class="zweb-col">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/img1.jpg" alt="Avatar">
+                </div>
+                <div class="flip-card-back">
+                  <h1>John Doe</h1> 
+                  <p>Architect & Engineer</p> 
+                  <p>We love that guy</p>
+                </div>
+              </div>
+            </div>
+            <div class="hover-imgpart">
+              <img src="images/img1.jpg" alt="hover img">
+              <div class="hov-imgbox">
+                <div class="inn-hov">
+                  <h3>hover title</h3>
+                  <p>Lorem ipsum dolere amet lorem ipsum dolere amet lorem ipsum dolere amet</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="zweb-col">
+            <div class="flip-card-v">
+              <div class="flip-card-inner">
+                <div class="flip-card-design">
+                  <div class="ico"><i class="fa fa-adjust" aria-hidden="true"></i></div>
+                <div class="desc">Transparency </div>
+                </div>
+              </div>
+            </div>
+            <div class="cussel_cont" id="hideselcont">
+              <select>
+              <option>Jigna</option>
+              <option>dhara</option>
+              <option>kinjal</option>
+              <option>tejal</option>
+              <option>nidhi</option>
+              </select>
+            </div>
+            <div class="skew-divsec">
+              <h3>Maanav Panchal</h3>
+            </div>
+          </div>
+          <div class="zweb-col">
+            <div class="cus_chradlist">
+              <div class="cusch_list">
+                <label class="cusch_item">Loan Amount
+                  <input type="checkbox" checked="checked" name="check">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="cusch_item">Payment
+                  <input type="checkbox" name="check">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="cusrad_list">
+                <label class="cusrad_item">Payment
+                  <input type="radio" checked="checked" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="cusrad_item">Loan Amount
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+
+            <div class="cus_switchpart">
+              <label class="gst_switch"><input type="checkbox"><span class="slider"><span class="sw_txt"></span></span></label>
+            </div>
+
+            <div class="cus_brwsbtn">
+              <button class="cb_btn">
+              <i class="fa fa-plus" aria-hidden="true"></i>browse file <input type="file" onchange="readURL(this);">
+              </button>
+            </div>
+          </div>
+
+          <div class="zweb-col">
+            <div class="sonar-wrapper">
+              <div class="sonar-emitter">
+                  <div class="sonar-wave"></div>
+              </div>
+            </div>
+            <div class="sonar-wrapper2">
+              <div class="sonar-emitter2">
+                  <div class="sonar-wave2"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="zweb-col">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- Start tabs --->
+    <div class="tab-block">
+      <div class="inn_container">
+          <ul class="tab-button">
+              <li class="active"><a href="#tab01">Tab 1</a></li>
+              <li><a href="#tab02">Tab 2</a></li>
+              <li><a href="#tab03">Tab 3</a></li>
+              <li><a href="#tab04">Tab 4</a></li>
+          </ul> 
+          <ul class="tab-desc">
+            <li>
+            <h2>Tab1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam consequuntur, esse provident impedit minima porro! Laudantium laboriosam culpa quis fugiat ea, architecto velit ab, deserunt rem quibusdam voluptatum.</p>
+            </li>
+            <li>
+            <h2>Tab2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam consequuntur, esse provident impedit minima porro! Laudantium laboriosam culpa quis fugiat ea, architecto velit ab, deserunt rem quibusdam voluptatum.</p>
+            </li>
+            <li>
+            <h2>Tab3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam consequuntur, esse provident impedit minima porro! Laudantium laboriosam culpa quis fugiat ea, architecto velit ab, deserunt rem quibusdam voluptatum.</p>
+            </li>
+            <li>
+            <h2>Tab4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam consequuntur, esse provident impedit minima porro! Laudantium laboriosam culpa quis fugiat ea, architecto velit ab, deserunt rem quibusdam voluptatum.</p>
+          </li>
+          </ul>
+      </div>
+    </div>
+    <!--- End tabs --->
+    <!--- Start panel --->
+    <div class="panel-block">
+      <div class="inn_container">
+        <div class="panel-sec panel-primary">
+          <div class="panel-item">
+              <div class="panel-heading">
+                <h3 class="panel-title">Panel 1</h3>
+                <span class="pull-right clickable"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+              </div>
+              <div class="panel-body">1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam consequuntur, esse provident impedit minima porro! Laudantium laboriosam culpa quis fugiat ea, architecto velit ab, deserunt rem quibusdam voluptatum.</div>
+          </div>
+          <div class="panel-item">
+              <div class="panel-heading">
+                <h3 class="panel-title">Panel 2</h3>
+                <span class="pull-right clickable"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+              </div>
+              <div class="panel-body">2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam consequuntur, esse provident impedit minima porro! Laudantium laboriosam culpa quis fugiat ea, architecto velit ab, deserunt rem quibusdam voluptatum.</div>
+          </div>
+          <div class="panel-item">
+              <div class="panel-heading">
+                <h3 class="panel-title">Panel 3</h3>
+                <span class="pull-right clickable"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+              </div>
+              <div class="panel-body">3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam consequuntur, esse provident impedit minima porro! Laudantium laboriosam culpa quis fugiat ea, architecto velit ab, deserunt rem quibusdam voluptatum.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- End panel --->
+    <div class="owl-carousel-sec">
+      <div class="inn_container">
+        <div id="owl-carousel" class="owl-carousel owl-theme clients-logo">
+          <div class="item"><img src="images/brand_1.png"></div>
+          <div class="item"><img src="images/brand_2.png"></div>
+          <div class="item"><img src="images/brand_3.png"></div>
+          <div class="item"><img src="images/brand_4.png"></div>
+          <div class="item"><img src="images/brand_3.png"></div>
+          <div class="item"><img src="images/brand_4.png"></div>
+          <div class="item"><img src="images/brand_5.png"></div>
+          <div class="item"><img src="images/partner_1.png"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- start first test block -->
+    <div class="tab-block">
+      <div class="inn_container">
+        <div class="fs-block-row">
+          <div class="tab-left">
+            <div class="tab">
+              <button class="tablinks" onclick="openCity(event, 'London')" id="defaultCity"></button>
+              <button class="tablinks" onclick="openCity(event, 'Paris')"></button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')"></button>
+            </div>
+          </div>
+          <div class="tab-right">
+            <div id="London" class="tabcontent">
+              <div class="inn-row">
+                <div class="inn-left">
+                  <img src="images/partner_1.png">
+                </div>
+                <div class="inn-right">
+                  <h3>London</h3>
+                  <p>London Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ..</p>
+                </div>
+              </div>
+            </div>
+            <div id="Paris" class="tabcontent">
+              <div class="inn-row">
+                <div class="inn-left">
+                  <img src="images/partner_2.png">
+                </div>
+                <div class="inn-right">
+                  <h3>Paris</h3>
+                  <p>Paris Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ..</p>
+                </div>
+              </div>
+            </div>
+            <div id="Tokyo" class="tabcontent">
+              <div class="inn-row">
+                <div class="inn-left">
+                  <img src="images/partner_3.png">
+                </div>
+                <div class="inn-right">
+                  <h3>Tokyo</h3>
+                  <p>Tokyo Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ..</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fs-block-row ss-block-row">
+          <div class="tab-left">
+            <div class="tab">
+              <button class="tablinks" onclick="openState(event, 'Mumbai')" id="defaultState"></button>
+              <button class="tablinks" onclick="openState(event, 'Delhi')"></button>
+              <button class="tablinks" onclick="openState(event, 'Gujarat')"></button>
+            </div>
+          </div>
+          <div class="tab-right">
+            <div id="Mumbai" class="statedesc">
+              <div class="inn-row">
+                <div class="inn-left">
+                  <img src="images/partner_1.png">
+                </div>
+                <div class="inn-right">
+                  <h3>London</h3>
+                  <p>London Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ..</p>
+                </div>
+              </div>
+            </div>
+            <div id="Delhi" class="statedesc">
+              <div class="inn-row">
+                <div class="inn-left">
+                  <img src="images/partner_2.png">
+                </div>
+                <div class="inn-right">
+                  <h3>Paris</h3>
+                  <p>Paris Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ..</p>
+                </div>
+              </div>
+            </div>
+            <div id="Gujarat" class="statedesc">
+              <div class="inn-row">
+                <div class="inn-left">
+                  <img src="images/partner_3.png">
+                </div>
+                <div class="inn-right">
+                  <h3>Tokyo</h3>
+                  <p>Tokyo Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ..</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end first tet block -->
+  </div>
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+
+</body>
+</html>
